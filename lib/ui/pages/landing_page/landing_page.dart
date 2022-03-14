@@ -8,103 +8,11 @@ class LandingPage extends StatefulWidget {
 }
 
 class _LandingPageState extends State<LandingPage> {
-  int selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {
-    Widget navItem(String title, int index) {
-      return InkWell(
-        onTap: () {
-          setState(() {
-            selectedIndex = index;
-          });
-        },
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.end,
-          children: [
-            Text(title,
-                style: regularTextStyle.copyWith(
-                  fontSize: 18,
-                  color: kPrimaryColor,
-                  fontWeight: index == selectedIndex
-                      ? FontWeight.w500
-                      : FontWeight.w300,
-                )),
-            SizedBox(
-              height: 4,
-            ),
-            Container(
-              width: 30,
-              height: 2,
-              decoration: BoxDecoration(
-                color:
-                    index == selectedIndex ? kPrimaryColor : kTransparentColor,
-                borderRadius: BorderRadius.circular(18),
-              ),
-            )
-          ],
-        ),
-      );
-    }
 
-    return Scaffold(
-      backgroundColor: kBackgroundColor,
-      body: Column(
-        children: [
-          /// NAV BAR
-          Padding(
-            padding: const EdgeInsets.only(left: 100, right: 100, top: 30),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Image.asset(
-                  'images/personal_logo.png',
-                  width: 72,
-                  height: 40,
-                ),
-                Row(
-                  children: [
-                    navItem('Home', 0),
-                    SizedBox(
-                      width: 50,
-                    ),
-                    navItem('About', 1),
-                    SizedBox(
-                      width: 50,
-                    ),
-                    navItem('Works', 2),
-                    SizedBox(
-                      width: 50,
-                    ),
-                    navItem('Services', 3),
-                  ],
-                ),
-                InkWell(
-                  onTap: () {},
-                  child: Container(
-                    height: 40,
-                    width: 155,
-                    decoration: BoxDecoration(
-                        color: kPrimaryColor,
-                        borderRadius: BorderRadius.circular(12)),
-                    child: Center(
-                        child: Text(
-                      'Contact Me',
-                      style: regularTextStyle.copyWith(color: kWhiteColor),
-                    )),
-                  ),
-                )
-              ],
-            ),
-          ),
-
-          SizedBox(
-            height: 50,
-          ),
-
-          // CONTENT
-          Container(
+    return  Container(
             margin: EdgeInsets.only(left: 100, right: 100),
             height: 654,
             child: Row(
@@ -176,80 +84,6 @@ class _LandingPageState extends State<LandingPage> {
                 )
               ],
             ),
-          ),
-          SizedBox(
-            height: 50,
-          ),
-          //FOOTER
-          Container(
-            margin: EdgeInsets.only(bottom: 30),
-            width: double.infinity,
-            height: 80,
-            color: kPrimaryColor,
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 100),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  InkWell(
-                    onTap: () {},
-                    child: Container(
-                      height: 40,
-                      width: 40,
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                              image: AssetImage('icons/instagram.png'),
-                              fit: BoxFit.contain)),
-                    ),
-                  ),
-                  SizedBox(
-                    width: 40,
-                  ),
-                  InkWell(
-                    onTap: () {},
-                    child: Container(
-                      height: 40,
-                      width: 40,
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                              image: AssetImage('icons/linkedin.png'),
-                              fit: BoxFit.contain)),
-                    ),
-                  ),
-                  SizedBox(
-                    width: 40,
-                  ),
-                  InkWell(
-                    onTap: () {},
-                    child: Container(
-                      height: 40,
-                      width: 40,
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                              image: AssetImage('icons/twitter.png'),
-                              fit: BoxFit.contain)),
-                    ),
-                  ),
-                  SizedBox(
-                    width: 40,
-                  ),
-                  InkWell(
-                    onTap: () {},
-                    child: Container(
-                      height: 40,
-                      width: 40,
-                      decoration: BoxDecoration(
-                          image: DecorationImage(
-                              image: AssetImage('icons/dribbble.png'),
-                              fit: BoxFit.contain)),
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          )
-        ],
-      ),
-    );
+          );
   }
 }
