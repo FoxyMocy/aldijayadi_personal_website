@@ -182,6 +182,15 @@ class _MainPageState extends State<MainPage> {
                     ],
                   ),
                 ),
+              ),
+              Container(
+                margin: EdgeInsets.only(bottom: 30),
+                child: Center(
+                    child: Text(
+                  "Sorry, this website is still under construction.",
+                  style: headTextStyle.copyWith(fontSize: 14),
+                )),
+                width: double.infinity
               )
             ],
           ),
