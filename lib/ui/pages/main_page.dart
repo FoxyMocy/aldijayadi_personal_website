@@ -54,8 +54,8 @@ class _MainPageState extends State<MainPage> {
               ),
               InkWell(
                 onTap: () {
-                  Navigator.pushReplacement(context,
-                      MaterialPageRoute(builder: (context) => ContactMePage()));
+                  // Navigator.pushReplacement(context,
+                  //     MaterialPageRoute(builder: (context) => ContactMePage()));
                 },
                 child: Container(
                   height: 40,

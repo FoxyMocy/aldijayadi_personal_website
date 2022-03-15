@@ -20,6 +20,7 @@ const RESOURCES = {
 "assets/icons/instagram.png": "7f42ad42ccc043d066d39d7f9d6c169d",
 "assets/icons/linkedin.png": "599d2aa4c8d3e4e20c584fab5c84ab48",
 "assets/icons/twitter.png": "9d9d3417c62471d14bc00375e7167fab",
+"assets/images/illu_construction.png": "35150cd8dc678d5972f63cfff5234459",
 "assets/images/illu_project_left.png": "387c5105603949c7b05f3bec28feec33",
 "assets/images/illu_project_right.png": "84030a1ea426b390f5d69b502081abd0",
 "assets/images/personal_logo.png": "5c5c4bd70b9c0ffeddbc00a786b1ce0c",
@@ -39,9 +40,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "b620a85a046ab556cd52f1fa5ceb47c0",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "a775e878affbced5f3b2252b0c6bf139",
-"/": "a775e878affbced5f3b2252b0c6bf139",
-"main.dart.js": "04bce981e8dda08d65e13c24c5d1481b",
+"index.html": "0a9724e318215a7c9516e23dffe2e962",
+"/": "0a9724e318215a7c9516e23dffe2e962",
+"main.dart.js": "dc3f6f93057498baeeeb983c621a9144",
 "manifest.json": "834b4eb7f67ef9ba19bdd12c27aa61b1",
 "version.json": "2080530d33bcb9f6c60f9a1514fd3be8"
 };
