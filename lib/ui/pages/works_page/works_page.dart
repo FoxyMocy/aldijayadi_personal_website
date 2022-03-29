@@ -90,7 +90,7 @@ class WorksPage extends StatelessWidget {
                 width: 400,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('images/illu_project_left.png'),
+                        image: AssetImage('images/illu_project_left_section.png'),
                         fit: BoxFit.contain)),
               ),
               Expanded(
