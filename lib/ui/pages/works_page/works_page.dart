@@ -18,7 +18,7 @@ class WorksPage extends StatelessWidget {
                 width: 400,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('images/illu_project_left.png'),
+                        image: AssetImage('images/illu_project_beelajar.png'),
                         fit: BoxFit.contain)),
               ),
               Expanded(
@@ -26,7 +26,7 @@ class WorksPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Project 1 App',
+                      'Beelajar',
                       style: headTextStyle.copyWith(fontSize: 48),
                     ),
                     SizedBox(
@@ -55,14 +55,14 @@ class WorksPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Project 2 App',
+                      'Alfa Learning',
                       style: headTextStyle.copyWith(fontSize: 48),
                     ),
                     SizedBox(
                       height: 8,
                     ),
                     Text(
-                      txtProject,
+                      txtAlfa,
                       style: regularTextStyle.copyWith(fontSize: 18),
                     )
                   ],
@@ -73,7 +73,7 @@ class WorksPage extends StatelessWidget {
                 width: 400,
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('images/illu_project_right.png'),
+                        image: AssetImage('images/illu_project_alfa.png'),
                         fit: BoxFit.contain)),
               ),
             ],
@@ -98,56 +98,19 @@ class WorksPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Project 3 App',
+                      'IP Academy',
                       style: headTextStyle.copyWith(fontSize: 48),
                     ),
                     SizedBox(
                       height: 8,
                     ),
                     Text(
-                      txtProject,
+                      txtIpAcademy,
                       style: regularTextStyle.copyWith(fontSize: 18),
                     )
                   ],
                 ),
               )
-            ],
-          ),
-
-          SizedBox(
-            height: 20,
-          ),
-
-          // RIGHT ILLU
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Project 4 App',
-                      style: headTextStyle.copyWith(fontSize: 48),
-                    ),
-                    SizedBox(
-                      height: 8,
-                    ),
-                    Text(
-                      txtProject,
-                      style: regularTextStyle.copyWith(fontSize: 18),
-                    )
-                  ],
-                ),
-              ),
-              Container(
-                height: 355,
-                width: 400,
-                decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('images/illu_project_right.png'),
-                        fit: BoxFit.contain)),
-              ),
             ],
           ),
         ],

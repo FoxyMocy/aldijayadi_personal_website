@@ -47,13 +47,34 @@ class _LandingPageState extends State<LandingPage> {
                     height: 24,
                   ),
                   Container(
-                    width: 700,
-                    child: Text(
-                      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae luctus mi.Ut congue neque at ex faucibus, non luctus urna feugiat. Morbi a consequat diam. Nullam convallis ex id aliquet ultricies.',
-                      style: regularTextStyle.copyWith(
-                          fontSize: 18, color: kPrimaryColor),
-                    ),
-                  ),
+                      width: 650,
+                      child: RichText(
+                          text: TextSpan(
+                              text: 'Open for freelance ',
+                              style: regularTextStyle.copyWith(
+                                  fontSize: 18, color: kPrimaryColor),
+                              children: <TextSpan>[
+                            TextSpan(
+                              text: 'Mobile App Developer ',
+                              style: regularTextStyle.copyWith(
+                                  fontSize: 18, color: kPrimaryColor, fontWeight: bold),
+                            ),
+                            TextSpan(
+                              text: 'or maybe ',
+                              style: regularTextStyle.copyWith(
+                                  fontSize: 18, color: kPrimaryColor),
+                            ),
+                            TextSpan(
+                              text: 'Visual Designer. ',
+                              style: regularTextStyle.copyWith(
+                                  fontSize: 18, color: kPrimaryColor, fontWeight: bold),
+                            ),
+                            TextSpan(
+                              text: 'Press the Instagram or LinkedIn icon to contact me because the hire me and contact me buttons are still in progress.',
+                              style: regularTextStyle.copyWith(
+                                  fontSize: 18, color: kPrimaryColor),
+                            ),
+                          ]))),
                   SizedBox(
                     height: 40,
                   ),
@@ -85,7 +106,6 @@ class _LandingPageState extends State<LandingPage> {
             ],
           ),
         ),
-
       ],
     );
   }
