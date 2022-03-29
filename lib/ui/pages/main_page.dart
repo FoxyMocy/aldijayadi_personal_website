@@ -155,13 +155,13 @@ class _MainPageState extends State<MainPage> {
                       ),
                       InkWell(
                         onTap: () =>
-                            launch('https://twitter.com/aldi_jayadi29'),
+                            launch('https://play.google.com/store/apps/dev?id=5028283504980652787'),
                         child: Container(
                           height: 40,
                           width: 40,
                           decoration: BoxDecoration(
                               image: DecorationImage(
-                                  image: AssetImage('icons/twitter.png'),
+                                  image: AssetImage('icons/google_play.png'),
                                   fit: BoxFit.contain)),
                         ),
                       ),

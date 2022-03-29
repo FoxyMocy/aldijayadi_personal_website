@@ -53517,7 +53517,7 @@ default:return new A.nC(s)}},
 $S:326}
 A.a0v.prototype={
 $2(a,b){var s,r=null,q=t.E
-q=A.a([this.a.$0(),A.cv(r,50,r),new A.kk(B.a1,r,r,this.b.$1(b),r),A.cv(r,50,r),A.c8(r,new A.ff(B.e5,A.jH(A.a([A.l4(!1,!0,A.c8(r,r,r,new A.cr(r,A.hX(B.aw,new A.dp("icons/instagram.png",r,r)),r,r,r,r,B.N),40,r,r,40),r,!0,r,r,r,r,r,r,r,r,r,new A.a0q(),r),A.cv(r,r,40),A.l4(!1,!0,A.c8(r,r,r,new A.cr(r,A.hX(B.aw,new A.dp("icons/linkedin.png",r,r)),r,r,r,r,B.N),40,r,r,40),r,!0,r,r,r,r,r,r,r,r,r,new A.a0r(),r),A.cv(r,r,40),A.l4(!1,!0,A.c8(r,r,r,new A.cr(r,A.hX(B.aw,new A.dp("icons/twitter.png",r,r)),r,r,r,r,B.N),40,r,r,40),r,!0,r,r,r,r,r,r,r,r,r,new A.a0s(),r),A.cv(r,r,40),A.l4(!1,!0,A.c8(r,r,r,new A.cr(r,A.hX(B.aw,new A.dp("icons/dribbble.png",r,r)),r,r,r,r,B.N),40,r,r,40),r,!0,r,r,r,r,r,r,r,r,r,new A.a0t(),r)],q),B.ao,B.B7,B.I),r),B.a4,r,80,new A.bg(0,0,0,30),r,1/0),A.c8(r,A.qT(A.dz("Sorry, this website is still under construction.",$.kh().fn(14),r,r),r,r),r,r,r,new A.bg(0,0,0,30),r,1/0)],q)
+q=A.a([this.a.$0(),A.cv(r,50,r),new A.kk(B.a1,r,r,this.b.$1(b),r),A.cv(r,50,r),A.c8(r,new A.ff(B.e5,A.jH(A.a([A.l4(!1,!0,A.c8(r,r,r,new A.cr(r,A.hX(B.aw,new A.dp("icons/instagram.png",r,r)),r,r,r,r,B.N),40,r,r,40),r,!0,r,r,r,r,r,r,r,r,r,new A.a0q(),r),A.cv(r,r,40),A.l4(!1,!0,A.c8(r,r,r,new A.cr(r,A.hX(B.aw,new A.dp("icons/linkedin.png",r,r)),r,r,r,r,B.N),40,r,r,40),r,!0,r,r,r,r,r,r,r,r,r,new A.a0r(),r),A.cv(r,r,40),A.l4(!1,!0,A.c8(r,r,r,new A.cr(r,A.hX(B.aw,new A.dp("icons/google_play.png",r,r)),r,r,r,r,B.N),40,r,r,40),r,!0,r,r,r,r,r,r,r,r,r,new A.a0s(),r),A.cv(r,r,40),A.l4(!1,!0,A.c8(r,r,r,new A.cr(r,A.hX(B.aw,new A.dp("icons/dribbble.png",r,r)),r,r,r,r,B.N),40,r,r,40),r,!0,r,r,r,r,r,r,r,r,r,new A.a0t(),r)],q),B.ao,B.B7,B.I),r),B.a4,r,80,new A.bg(0,0,0,30),r,1/0),A.c8(r,A.qT(A.dz("Sorry, this website is still under construction.",$.kh().fn(14),r,r),r,r),r,r,r,new A.bg(0,0,0,30),r,1/0)],q)
 s=A.aG([null,0],t.st,t.S)
 return new A.lz(A.akS(new A.BF(new A.XM(!0,!0,!0,q,s),r,B.bj,!1,r,!0,B.t1,!1,r,6,B.bs,B.Cp,r,B.an,r),!0),B.wH,r)},
 $S:327}
@@ -53528,7 +53528,7 @@ A.a0r.prototype={
 $0(){return A.qe("https://www.linkedin.com/in/aldijayadi/")},
 $S:0}
 A.a0s.prototype={
-$0(){return A.qe("https://twitter.com/aldi_jayadi29")},
+$0(){return A.qe("https://play.google.com/store/apps/dev?id=5028283504980652787")},
 $S:0}
 A.a0t.prototype={
 $0(){return A.qe("https://dribbble.com/aldiJayadi_")},
