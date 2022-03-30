@@ -119,7 +119,10 @@ class _LandingPageState extends State<LandingPage> {
                       child: Center(
                           child: Text(
                         'Hire Me',
-                        style: regularTextStyle.copyWith(color: kWhiteColor),
+                        style: regularTextStyle.copyWith(
+                          color: kWhiteColor,
+                          fontWeight: bold,
+                        ),
                       )),
                     ),
                   )

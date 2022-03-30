@@ -66,7 +66,7 @@ class _MainPageState extends State<MainPage> {
                   child: Center(
                       child: Text(
                     'Contact Me',
-                    style: regularTextStyle.copyWith(color: kWhiteColor),
+                    style: regularTextStyle.copyWith(color: kWhiteColor, fontWeight: bold),
                   )),
                 ),
               )
