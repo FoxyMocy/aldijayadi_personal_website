@@ -75,7 +75,7 @@ class _LandingPageState extends State<LandingPage> {
                             ),
                             TextSpan(
                               text:
-                                  'Press the or LinkedIn icon to contact me because the hire me and contact me buttons are still in progress.',
+                                  'Press the ',
                               style: regularTextStyle.copyWith(
                                   fontSize: 18, color: kPrimaryColor),
                             ),
