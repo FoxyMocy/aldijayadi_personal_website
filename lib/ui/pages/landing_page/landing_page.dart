@@ -38,7 +38,7 @@ class _LandingPageState extends State<LandingPage> {
                   Container(
                     width: 700,
                     child: Text(
-                      'Mobile App Programmer',
+                      'Mobile App Developer',
                       style: regularTextStyle.copyWith(
                           fontSize: 64, color: kPrimaryColor),
                     ),
@@ -57,7 +57,9 @@ class _LandingPageState extends State<LandingPage> {
                             TextSpan(
                               text: 'Mobile App Developer ',
                               style: regularTextStyle.copyWith(
-                                  fontSize: 18, color: kPrimaryColor, fontWeight: bold),
+                                  fontSize: 18,
+                                  color: kPrimaryColor,
+                                  fontWeight: bold),
                             ),
                             TextSpan(
                               text: 'or maybe ',
@@ -67,10 +69,38 @@ class _LandingPageState extends State<LandingPage> {
                             TextSpan(
                               text: 'Visual Designer. ',
                               style: regularTextStyle.copyWith(
-                                  fontSize: 18, color: kPrimaryColor, fontWeight: bold),
+                                  fontSize: 18,
+                                  color: kPrimaryColor,
+                                  fontWeight: bold),
                             ),
                             TextSpan(
-                              text: 'Press the Instagram or LinkedIn icon to contact me because the hire me and contact me buttons are still in progress.',
+                              text:
+                                  'Press the or LinkedIn icon to contact me because the hire me and contact me buttons are still in progress.',
+                              style: regularTextStyle.copyWith(
+                                  fontSize: 18, color: kPrimaryColor),
+                            ),
+                            TextSpan(
+                              text: 'Instagram ',
+                              style: regularTextStyle.copyWith(
+                                  fontSize: 18,
+                                  color: kPrimaryColor,
+                                  fontWeight: bold),
+                            ),
+                            TextSpan(
+                              text: 'or ',
+                              style: regularTextStyle.copyWith(
+                                  fontSize: 18, color: kPrimaryColor),
+                            ),
+                            TextSpan(
+                              text: 'LinkedIn ',
+                              style: regularTextStyle.copyWith(
+                                  fontSize: 18,
+                                  color: kPrimaryColor,
+                                  fontWeight: bold),
+                            ),
+                            TextSpan(
+                              text:
+                                  'icon to contact me because the hire me and contact me buttons are still in progress.',
                               style: regularTextStyle.copyWith(
                                   fontSize: 18, color: kPrimaryColor),
                             ),
